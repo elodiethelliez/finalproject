@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+import HTMLFlipBook from 'react-pageflip';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function MyBook(props) {
+    return (
+        <HTMLFlipBook width={300} height={500}>
+            <div className="demoPage">Page 1</div>
+            <div className="demoPage">Page 2</div>
+            <div className="demoPage">Page 3</div>
+            <div className="demoPage">Page 4</div>
+        </HTMLFlipBook>
+    );
 }
 
-export default App;
+export default MyBook;
