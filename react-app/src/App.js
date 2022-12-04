@@ -1,14 +1,21 @@
 // import logo from './logo.svg';
 import './App.css';
 import HTMLFlipBook from 'react-pageflip';
+import test from './media/test.png'
 
 function MyBook(props) {
     return (
         <HTMLFlipBook width={500} height={648} className="zine">
-            <div className="page"><img src="blankblack.png" alt=""></img>Page 1</div>
-            <div className="page">Page 2</div>
+            <div className="page">Page 1 </div>
+            <div className="page">Page 2
+            <div id="circle">
+		            <div id="circleText">.CHANGE.TAKES.TIME.TAKES.CHANGE.TAKES.TIME.TAKES.CHANGE.TAKES.TIME.TAKES </div>
+	            </div>
+            </div>
+            <div className="page">
+                <img src={test} alt="test" style={{ width: '500px', }}/>
+            </div>
             <div className="page">Page 3</div>
-            <div className="page">Page 4</div>
         </HTMLFlipBook>
     );
 }

@@ -9,7 +9,7 @@
 }
 .page {
   box-sizing: border-box;
-  padding: 20px;
+  /* padding: 20px; */
   background-color: #fdfaf7;
   color: #785e3a;
   border: solid 1px #c2b5a3;
