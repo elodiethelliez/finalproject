@@ -9,7 +9,6 @@ function MyBook(props) {
             <div className="page">Page 1 </div>
             <div className="page">Page 2
             <div id="circle">
-		            <div id="circleText">.CHANGE.TAKES.TIME.TAKES.CHANGE.TAKES.TIME.TAKES.CHANGE.TAKES.TIME.TAKES </div>
 	            </div>
             </div>
             <div className="page">
