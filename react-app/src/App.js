@@ -19,6 +19,8 @@ function MyBook(props) {
             <div className="page">
                 <img src={image1} alt="test" style={{ width: '500px', }}/>
             </div>
+            <div className="page">Page 3</div>
+            <div className="page">Page 3</div>
         </HTMLFlipBook>
     );
 }
