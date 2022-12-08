@@ -7,11 +7,12 @@
 
   background-size: cover;
 }
+
 .page {
   box-sizing: border-box;
   /* padding: 20px; */
-  background-color: #fdfaf7;
-  color: #785e3a;
+  /* background-color: #fdfaf7; */
+  /* color: #785e3a; */
   border: solid 1px #c2b5a3;
   overflow: hidden;
   text-align: center;
@@ -53,8 +54,8 @@ p {
 }
 
 li{
-  /* float: center; */
-  /* position: absolute; */
+  float: center;
+  position: absolute;
 }
 
 li#lost {
