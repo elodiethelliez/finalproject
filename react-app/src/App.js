@@ -7,6 +7,7 @@ import magnetic from './media/magnetic.png';
 import matrix1 from './media/matrix1.png';
 import matrix2 from './media/matrix2.png';
 import HY from './media/HY.jpg';
+import back from './media/back.png';
 
 function MyBook(props) {
     return (
@@ -15,14 +16,14 @@ function MyBook(props) {
             <div className="page">
                 <img src={cover} alt="cover page" style={{ width: '500px',}}/> 
             </div>
-            <div className="page"> description/credit </div>
+            <div className="page"> page 1 design needed </div>
             <div className="page">
                 <img src={circles} alt="circles page" style={{ width: '500px',}}/>
             </div>
             <div className="page">
                 <img src={HY} alt="HY pattern" style={{ width: '500px', }}/>
             </div>
-            <div className="page">a black one should go here </div>
+            <div className="page">i feel like a black background one should go here </div>
             <div className="page">
                 <img src={matrix1} alt="matrix" style={{ width: '500px',}}/>
             </div>
@@ -36,7 +37,9 @@ function MyBook(props) {
             
             <div className="page">Page 3</div>
             
-            <div className="page">Page 3</div>
+            <div className="page">
+                <img src={back} alt="back cover" style={{ width: '500px',}}/>
+            </div>
             <div className="hiddenpage"></div>
         </HTMLFlipBook>
     );
