@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import HTMLFlipBook from 'react-pageflip';
+import cover from './media/cover.png';
 import circles from './media/circles.png';
 import magnetic from './media/magnetic.png';
 import matrix1 from './media/matrix1.png';
@@ -11,7 +12,9 @@ function MyBook(props) {
     return (
         <HTMLFlipBook width={500} height={648} className="zine">
             <div className="hiddenpage"></div>
-            <div className="page"> cover </div>
+            <div className="page">
+                <img src={cover} alt="cover page" style={{ width: '500px',}}/> 
+            </div>
             <div className="page"> description/credit </div>
             <div className="page">
                 <img src={circles} alt="circles page" style={{ width: '500px',}}/>
