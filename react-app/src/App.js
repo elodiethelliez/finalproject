@@ -44,8 +44,6 @@ function MyBook(props) {
                 <img src={matrix2} alt="magnetic page" style={{ width: '500px',}}/>
             </div>
             
-            <div className="page">page</div>
-            
             <div className="page">
                 <img src={back} alt="back cover" style={{ width: '500px',}}/>
             </div>
