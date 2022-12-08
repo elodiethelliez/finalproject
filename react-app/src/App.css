@@ -1,5 +1,4 @@
 .zine {
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
   display: none;
   margin:auto;
   margin-top: 10%;
@@ -8,7 +7,12 @@
   background-size: cover;
 }
 
+.hiddenpage {
+  box-shadow: none;
+}
+
 .page {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
   /* padding: 20px; */
   /* background-color: #fdfaf7; */
