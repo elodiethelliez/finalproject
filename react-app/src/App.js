@@ -2,6 +2,7 @@
 import './App.css';
 import HTMLFlipBook from 'react-pageflip';
 import cover from './media/cover.png';
+import outside from './media/outside.jpg';
 import circles from './media/circles.png';
 import magnetic2 from './media/magnetic2.png';
 import matrix1 from './media/matrix1.png';
@@ -18,7 +19,9 @@ function MyBook(props) {
                 <img src={cover} alt="cover page" style={{ width: '500px',}}/> 
             </div>
 
-            <div className="page"> page 1 design needed </div>
+            <div className="page"> 
+                <img src={outside} alt="outside page" style={{ width: '500px',}}/>
+            </div>
 
             <div className="page">
                 <img src={circles} alt="circles page" style={{ width: '500px',}}/>
