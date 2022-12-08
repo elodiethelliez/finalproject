@@ -3,7 +3,6 @@
   margin:auto;
   margin-top: 10%;
   margin-bottom: 10%;
-
   background-size: cover;
 }
 
@@ -14,83 +13,7 @@
 .page {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
-  /* padding: 20px; */
-  /* background-color: #fdfaf7; */
-  /* color: #785e3a; */
-  border: solid 1px #c2b5a3;
+  border: solid 1px rgba(164, 156, 156, 0.5) ;
   overflow: hidden;
   text-align: center;
 }
-
-#ring {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  overflow: hidden;
-}
-
-ul{ 
-  margin: 0;
-  list-style: none;
-  font-size: 35pt;
-  font-family: memimas-pro, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  
-  /*font-family: freight-big-pro, serif;*/
-  font-weight: 500;
-  font-style: normal;
-  
-  transform-style: preserve-3d;
-  animation: three-dimensions-circle 30s linear infinite;
-}
-
-p {
-  font-size: 15pt;
-  font-family: memimas-pro, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  
-  font-weight: 500;
-  font-style: normal;
-  text-align: center;
-}
-
-li{
-  float: center;
-  position: absolute;
-}
-
-li#lost {
-   transform: translate(-50%, -50%) rotate(0deg) translateY(-100px) rotateX(90deg);
-}
-li#in {
-   transform: translate(-50%, -50%) rotate(120deg) translateY(-100px) rotateX(90deg);
-}
-li#space {
-   transform: translate(-50%, -50%) rotate(325deg) translateY(-100px) rotateX(90deg);
-}
-
-@keyframes three-dimensions-circle {
-  0% {
-    transform: rotateX(-100deg) rotateY(15deg) rotate(0);
- }
-  100% {
-    transform: rotateX(-100deg) rotateY(10deg) rotate(-360deg);
- }
-}
-
-#circleText {
-  animation: rotation 12.5s infinite linear;
-}
-
-	@keyframes rotation {
-  	from {
-    	transform: rotate(359deg);
- 	 }
-  	to {
-   	 transform: rotate(0deg);
-  	}
-  }
-

@@ -13,29 +13,36 @@ function MyBook(props) {
     return (
         <HTMLFlipBook width={500} height={648} className="zine">
             <div className="hiddenpage"></div>
+
             <div className="page">
                 <img src={cover} alt="cover page" style={{ width: '500px',}}/> 
             </div>
+
             <div className="page"> page 1 design needed </div>
+
             <div className="page">
                 <img src={circles} alt="circles page" style={{ width: '500px',}}/>
             </div>
+
             <div className="page">
                 <img src={HY} alt="HY pattern" style={{ width: '500px', }}/>
             </div>
+
             <div className="page">i feel like a black background one should go here </div>
+
             <div className="page">
                 <img src={matrix1} alt="matrix" style={{ width: '500px',}}/>
             </div>
+
             <div className="page">
                 <img src={matrix2} alt="matrix" style={{ width: '500px',}}/>
             </div>
+
             <div className="page">
                 <img src={magnetic2} alt="magnetic page" style={{ width: '500px',}}/>
             </div>
-
             
-            <div className="page">Page 3</div>
+            <div className="page">page</div>
             
             <div className="page">
                 <img src={back} alt="back cover" style={{ width: '500px',}}/>
