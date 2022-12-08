@@ -8,6 +8,7 @@ import magnetic2 from './media/magnetic2.png';
 import matrix1 from './media/matrix1.png';
 import matrix2 from './media/matrix2.png';
 import HY from './media/HY.jpg';
+import b from './media/b.jpg';
 import back from './media/back.png';
 
 function MyBook(props) {
@@ -20,29 +21,27 @@ function MyBook(props) {
             </div>
 
             <div className="page"> 
-                <img src={outside} alt="outside page" style={{ width: '500px',}}/>
+                <img src={matrix1} alt="outside page" style={{ width: '500px',}}/>
             </div>
 
             <div className="page">
-                <img src={circles} alt="circles page" style={{ width: '500px',}}/>
+                <img src={b} alt="circles page" style={{ width: '500px',}}/>
             </div>
 
             <div className="page">
-                <img src={HY} alt="HY pattern" style={{ width: '500px', }}/>
-            </div>
-
-            <div className="page">i feel like a black background one should go here </div>
-
-            <div className="page">
-                <img src={matrix1} alt="matrix" style={{ width: '500px',}}/>
+                <img src={outside} alt="HY pattern" style={{ width: '500px', }}/>
             </div>
 
             <div className="page">
-                <img src={matrix2} alt="matrix" style={{ width: '500px',}}/>
+                <img src={circles} alt="matrix" style={{ width: '500px',}}/>
             </div>
 
             <div className="page">
-                <img src={magnetic2} alt="magnetic page" style={{ width: '500px',}}/>
+                <img src={HY} alt="matrix" style={{ width: '500px',}}/>
+            </div>
+
+            <div className="page">
+                <img src={matrix2} alt="magnetic page" style={{ width: '500px',}}/>
             </div>
             
             <div className="page">page</div>
