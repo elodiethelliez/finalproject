@@ -9,8 +9,13 @@ function MyBook(props) {
         <HTMLFlipBook width={500} height={648} className="zine">
             <div className="page">Page 1 </div>
             <div className="page">Page 2
-            <div id="circle">
-	            </div>
+                <div class="ring">
+                    <ul>
+                        <li id="lost">lost</li>
+                        <li id="in">in</li>
+                        <li id="space">space</li>
+                    </ul>
+                </div>
             </div>
             <div className="page">
                 <img src={test} alt="test" style={{ width: '500px', }}/>
@@ -20,7 +25,7 @@ function MyBook(props) {
                 <img src={image1} alt="test" style={{ width: '500px', }}/>
             </div>
             <div className="page">Page 3</div>
-            <div >Page 3</div>
+            <div className="page">Page 3</div>
         </HTMLFlipBook>
     );
 }
